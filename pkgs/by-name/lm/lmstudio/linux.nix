@@ -9,7 +9,7 @@
 let
   src = fetchurl {
     url = "https://installers.lmstudio.ai/linux/x64/${version}-${rev}/LM-Studio-${version}-${rev}-x64.AppImage";
-    hash = "sha256-laROBUr1HLoaQT6rYhhhulR1KZuKczNomKbrXXkDANY=";
+    hash = "sha256-L3wYMqyjUL5pTz+/ujn76YYIfWzjqa3eoyNblU8/5hs=";
   };
 
   appimageContents = appimageTools.extractType2 { inherit pname version src; };

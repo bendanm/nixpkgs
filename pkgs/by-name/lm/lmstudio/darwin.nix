@@ -12,7 +12,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     url = "https://installers.lmstudio.ai/darwin/arm64/${version}-${rev}/LM-Studio-${version}-${rev}-arm64.dmg";
-    hash = "sha256-x4IRT1PjBz9eafmwNRyLVq+4/Rkptz6RVWDFdRrGnGY=";
+    hash = "sha256-fITYCCbkhXzB3F7IIVg3qYcOiYDalWKWR1/IYsA/LZI=";
   };
 
   nativeBuildInputs = [ undmg ];
